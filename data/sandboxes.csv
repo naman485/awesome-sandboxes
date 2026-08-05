@@ -1,0 +1,21 @@
+slug,name,pillar,category,isolation,coldStartMs,pricePerVcpuHr,gpu,freeTier,mcpSupport,persistence,sessionLimit,deploymentModel,officialUrl,lastVerified
+e2b,E2B,ai,AI code-execution sandbox,Firecracker microVM,150,0.05,false,$100 one-time credit (Hobby),false,"Pause/resume with memory state, snapshots",Up to 24h,Managed cloud (self-host available),https://e2b.dev,2026-07-26
+daytona,Daytona,ai,AI code-execution sandbox,Docker container,90,0.05,true,Free credits,true,"Persistent workspaces, snapshots",Persistent (lifecycle-managed),Managed cloud + open source,https://www.daytona.io,2026-07-26
+modal,Modal,ai,AI code-execution sandbox,gVisor,800,0.14,true,$30/mo free credits,false,Volumes; ephemeral compute,Configurable,Managed cloud,https://modal.com,2026-07-26
+vercel-sandbox,Vercel Sandbox,ai,AI code-execution sandbox,Firecracker microVM,400,0.128,false,Included allowance on Hobby,false,Persistent by default,45min (Hobby) / 24h (Pro),Managed (Vercel platform),https://vercel.com/docs/vercel-sandbox,2026-07-26
+cloudflare-sandbox,Cloudflare Sandbox SDK,ai,AI code-execution sandbox,V8 isolate + container,50,0.072,false,Workers free tier for isolates,true,Durable Objects state,30min execution cap,Managed (Cloudflare edge),https://developers.cloudflare.com/workers/,2026-07-26
+northflank,Northflank,ai,AI code-execution sandbox,Kata / gVisor microVM (selectable),300,0.01667,true,Free trial,false,Persistent volumes,Unlimited,Managed + BYOC/VPC (AWS/GCP/Azure/Oracle),https://northflank.com,2026-07-26
+blaxel,Blaxel,ai,AI code-execution sandbox,microVM,25,0.083,false,Free tier,true,Hibernate/resume with memory + processes,Persistent (hibernation),Managed cloud,https://blaxel.ai,2026-07-26
+runloop,Runloop,ai,AI code-execution sandbox,microVM,400,0.108,false,Free basic,true,Git-style disk snapshots + branching,Configurable,Managed cloud,https://www.runloop.ai,2026-07-26
+fly-machines,Fly.io Machines,ai,AI code-execution sandbox,microVM,300,0.07,true,Pay-as-you-go,true,"Persistent ext4 filesystem, checkpoints",Persistent,Managed cloud (global regions),https://fly.io,2026-07-26
+codesandbox-sdk,CodeSandbox SDK,ai,AI code-execution sandbox,Firecracker microVM,500,0.05,false,Free tier,false,"Git-versioned filesystem, forking",Configurable,Managed cloud,https://codesandbox.io/docs/sdk,2026-07-26
+salesforce,Salesforce Sandbox,enterprise,SaaS platform sandbox,,,,,Developer sandbox included with many editions,,,,,https://help.salesforce.com/s/articleView?id=platform.data_sandbox_environments.htm,2026-07-26
+servicenow,ServiceNow PDI,enterprise,SaaS platform sandbox,,,,,Free PDI via Developer Program,,,,,https://developer.servicenow.com,2026-07-26
+stripe,Stripe Sandbox,enterprise,Payment / fintech API sandbox,,,,,Free (part of every Stripe account),,,,,https://docs.stripe.com/sandboxes,2026-07-26
+plaid,Plaid Sandbox,enterprise,Payment / fintech API sandbox,,,,,Free (Sandbox),,,,,https://plaid.com/docs/sandbox/,2026-07-26
+aws-sandbox,AWS Sandbox,enterprise,Cloud provider dev account,,,,,Builder Center Sandbox is free,,,,,https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/,2026-07-26
+mastercard,Mastercard Sandbox,enterprise,Payment / fintech API sandbox,,,,,Free (Mastercard Developers),,,,,https://developer.mastercard.com,2026-07-26
+shopify-dev-store,Shopify Development Store,enterprise,SaaS platform sandbox,,,,,Free (unlimited dev stores),,,,,https://shopify.dev/docs/api/development-stores,2026-07-26
+fca-sandbox,FCA Digital Sandbox,regulatory,Regulatory sandbox,,,,,Application-based (regulator program),,,,,https://www.fca.org.uk/firms/innovation/regulatory-sandbox,2026-07-26
+mas-sandbox,MAS FinTech Regulatory Sandbox,regulatory,Regulatory sandbox,,,,,Application-based (regulator program),,,,,https://www.mas.gov.sg/development/fintech/regulatory-sandbox,2026-07-26
+nayaone,NayaOne Sandbox,regulatory,Fintech vendor-testing platform,,,,,Commercial (institution-facing),,,,,https://nayaone.com,2026-07-26
